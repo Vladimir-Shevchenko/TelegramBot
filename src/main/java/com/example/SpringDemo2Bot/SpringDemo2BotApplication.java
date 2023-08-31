@@ -17,7 +17,9 @@ public class SpringDemo2BotApplication {
 		CommandsBot bot = new CommandsBot();
 		TelegramBotsApi telegramBot = new TelegramBotsApi(DefaultBotSession.class);
 		telegramBot.registerBot(bot);
+		///   changes in master
 
+        ///   2 change zalogodateli
 	}
 
 }
